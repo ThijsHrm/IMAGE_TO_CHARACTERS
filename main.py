@@ -50,15 +50,14 @@ def _remove_transparency(im, bg_colour=(255, 255, 255)):
         # (http://stackoverflow.com/a/8720632  and  http://stackoverflow.com/a/9459208)
         bg = Image.new("RGBA", im.size, bg_colour + (255,))
         bg.paste(im, mask=alpha)
-        return bg
+        im = bg
 
-    else:
-        return im
+    return im
 
 # testing
 if __name__ == '__main__':
 
-    # image_to_characters(filename, sizes) returns the transformed image in a numpy string array
+    # image_to_characters(filename, repword, sizes) returns the transformed image in a numpy string array
     result = image_to_characters('world_map_bw.png')
 
     # save results in old-school python style
