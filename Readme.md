@@ -1,6 +1,6 @@
 # Image to characters
 
-A function to easily convert images into a custom-sized string representing that image
+Inspired by a wall print at the university library. A function to easily convert images into a custom-sized string representing that image
 
 What goes in:
 
