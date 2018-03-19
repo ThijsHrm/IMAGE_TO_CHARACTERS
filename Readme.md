@@ -8,7 +8,8 @@ What goes in:
 creative commons: https://pixabay.com/nl/wereld-kaart-continental-708823/
 
 What comes out:
-
+---
+**NOTE**
                                                                                                                         
                                                                                                                         
                                                                                                                         
@@ -69,3 +70,4 @@ What comes out:
                                                                                                                         
                                                                                                                         
                                                                                                                         
+---
